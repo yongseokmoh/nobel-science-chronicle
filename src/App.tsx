@@ -164,6 +164,8 @@ export const App: React.FC = () => {
 
     const currentMeta = titleMap[targetDomain] || titleMap.all;
 
+    const isAll = targetDomain === 'all';
+
     return (
       <div className="min-h-screen bg-[#070A12] text-slate-100 pb-16">
         <FlowDiagram
@@ -172,6 +174,7 @@ export const App: React.FC = () => {
           domainDescription={currentMeta.desc}
           onSelectPrize={handleSelectPrizeFromFlow}
           onBackToTimeline={() => setViewMode('timeline')}
+          isAllDomain={isAll}
         />
       </div>
     );

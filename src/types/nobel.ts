@@ -25,13 +25,17 @@ export interface NobelPrizeItem {
   keywords: string[];
 }
 
+export type FlowLevel = 'macro' | 'deep';
+
 export interface FlowNode {
   id: string;
   domain: DomainType | 'all';
-  era: string; // 예: "1900-1920s 태동기"
+  level: FlowLevel; // 'macro' (대주기/시대 패러다임) 또는 'deep' (세부 융합 연구 클러스터)
+  era: string; // 예: "1900-1910s"
   title: string;
   description: string;
   keyMilestones: string[];
   nextNodes: string[]; // 연결선 대상 ID
   prizeIds: string[]; // 관련 노벨상 ID 링크
+  isEconomics?: boolean; // 경제학 포함/제외 필터링용
 }
