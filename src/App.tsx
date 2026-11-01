@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { NOBEL_PRIZES, FLOW_NODES } from './data/nobelData';
-import type { DomainType } from './types/nobel';
+import type { DomainType, NobelPrizeItem } from './types/nobel';
 import { NobelCard } from './components/NobelCard';
 import { IndexScrubber } from './components/IndexScrubber';
 import { FlowDiagram } from './components/FlowDiagram';
@@ -15,7 +15,10 @@ import {
   Search,
   Sparkles,
   CheckSquare,
-  Square
+  Square,
+  Network,
+  ChevronDown,
+  ChevronUp
 } from 'lucide-react';
 
 type ViewMode = 'timeline' | 'domain-group' | 'flow-all' | 'flow-physics' | 'flow-chemistry' | 'flow-medicine' | 'flow-economics';
@@ -23,12 +26,17 @@ type ViewMode = 'timeline' | 'domain-group' | 'flow-all' | 'flow-physics' | 'flo
 export const App: React.FC = () => {
   const [viewMode, setViewMode] = useState<ViewMode>('timeline');
   const [selectedDomain, setSelectedDomain] = useState<DomainType | 'all'>('all');
-  const [includeEconomics, setIncludeEconomics] = useState<boolean>(true); // 경제학 포함/제외 토글
+  const [includeEconomics, setIncludeEconomics] = useState<boolean>(true);
   const [searchQuery, setSearchQuery] = useState('');
   const [activeYear, setActiveYear] = useState<number>(1901);
-  const [visibleCount, setVisibleCount] = useState<number>(30); // 모바일 성능 최적화 점진 렌더링
+  const [visibleCount, setVisibleCount] = useState<number>(30);
 
-  // 연도별 앵커 목록 (1901년부터 2024년까지 촘촘한 네비게이션)
+  // 분야별 묶음 뷰에서 선택된 세부 학문분야 필터 ('all' 또는 subFieldId)
+  const [selectedSubField, setSelectedSubField] = useState<string>('all');
+  // 분야별 묶음 뷰에서 각 아코디언 폴더 접기/펼치기 상태
+  const [expandedClusters, setExpandedClusters] = useState<Record<string, boolean>>({});
+
+  // 연도별 앵커 목록
   const eraAnchors = useMemo(() => [
     { label: '1901', year: 1901 },
     { label: '1910s', year: 1910 },
@@ -45,7 +53,7 @@ export const App: React.FC = () => {
     { label: '2024', year: 2024 },
   ], []);
 
-  // 필터링된 전체 노벨상 리스트 (경제학 필터 및 도메인 필터 반영)
+  // 필터링된 전체 노벨상 리스트
   const filteredPrizes = useMemo(() => {
     return NOBEL_PRIZES.filter((item) => {
       // 1. 경제학 포함/제외 필터
@@ -53,7 +61,7 @@ export const App: React.FC = () => {
         return false;
       }
 
-      // 2. 분야 선택 필터
+      // 2. 도메인 필터
       const matchDomain = selectedDomain === 'all' || item.domain === selectedDomain;
 
       // 3. 검색어 필터
@@ -64,12 +72,67 @@ export const App: React.FC = () => {
         item.titleKo.toLowerCase().includes(q) ||
         item.titleEn.toLowerCase().includes(q) ||
         item.categoryCluster.toLowerCase().includes(q) ||
+        (item.subFieldKo && item.subFieldKo.toLowerCase().includes(q)) ||
         item.laureates.some(l => l.nameKo.toLowerCase().includes(q) || l.nameEn.toLowerCase().includes(q) || l.country.toLowerCase().includes(q)) ||
         item.keywords.some(kw => kw.toLowerCase().includes(q));
 
       return matchDomain && matchSearch;
     }).sort((a, b) => a.year - b.year);
   }, [selectedDomain, searchQuery, includeEconomics]);
+
+  // [분야별 묶음 전용]: 선택된 도메인의 모든 세부 분과학문(SubFields) 목록 추출
+  const availableSubFields = useMemo(() => {
+    if (viewMode !== 'domain-group') return [];
+    const targetDomain = selectedDomain === 'all' ? 'physics' : selectedDomain;
+    const prizesInDomain = NOBEL_PRIZES.filter(p => p.domain === targetDomain);
+    
+    const map = new Map<string, { id: string; name: string; desc: string; count: number }>();
+    prizesInDomain.forEach(p => {
+      const id = p.subFieldId || 'other';
+      const name = p.subFieldKo || '기타 연구분야';
+      const desc = p.subFieldDesc || '';
+      if (!map.has(id)) {
+        map.set(id, { id, name, desc, count: 1 });
+      } else {
+        map.get(id)!.count++;
+      }
+    });
+    return Array.from(map.values()).sort((a, b) => b.count - a.count);
+  }, [viewMode, selectedDomain]);
+
+  // [분야별 묶음 전용]: 세부 학문/유사성 단위 그룹핑
+  const subFieldGroupedPrizes = useMemo(() => {
+    if (viewMode !== 'domain-group') return [];
+    const targetDomain = selectedDomain === 'all' ? 'physics' : selectedDomain;
+    
+    // 대상 도메인 내 필터링된 연구들
+    const domainPrizes = filteredPrizes.filter(p => p.domain === targetDomain);
+    
+    const groups: { subFieldId: string; subFieldKo: string; subFieldDesc: string; items: NobelPrizeItem[] }[] = [];
+    const groupMap = new Map<string, NobelPrizeItem[]>();
+
+    domainPrizes.forEach(p => {
+      const sId = p.subFieldId || 'other';
+      if (!groupMap.has(sId)) {
+        groupMap.set(sId, []);
+      }
+      groupMap.get(sId)!.push(p);
+    });
+
+    groupMap.forEach((items, sId) => {
+      if (selectedSubField === 'all' || selectedSubField === sId) {
+        const first = items[0];
+        groups.push({
+          subFieldId: sId,
+          subFieldKo: first.subFieldKo || '기타 연구분야',
+          subFieldDesc: first.subFieldDesc || '',
+          items: items.sort((a, b) => a.year - b.year)
+        });
+      }
+    });
+
+    return groups;
+  }, [viewMode, selectedDomain, filteredPrizes, selectedSubField]);
 
   // 스크롤 감지 및 현재 연도 하이라이트 동기화
   useEffect(() => {
@@ -85,7 +148,6 @@ export const App: React.FC = () => {
       });
       setActiveYear(currentYear);
 
-      // 무한 스크롤 다운 시 추가 로딩
       if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 800) {
         setVisibleCount((prev) => Math.min(prev + 30, filteredPrizes.length));
       }
@@ -97,7 +159,6 @@ export const App: React.FC = () => {
 
   // 연도 점프
   const handleSelectYear = (targetYear: number) => {
-    // 타겟 연도까지 visibleCount 확장
     const targetIndex = filteredPrizes.findIndex(p => p.year >= targetYear);
     if (targetIndex !== -1 && targetIndex >= visibleCount) {
       setVisibleCount(targetIndex + 20);
@@ -134,6 +195,14 @@ export const App: React.FC = () => {
     }, 150);
   };
 
+  // 아코디언 토글
+  const toggleClusterExpand = (clusterId: string) => {
+    setExpandedClusters(prev => ({
+      ...prev,
+      [clusterId]: !prev[clusterId]
+    }));
+  };
+
   // 흐름도 뷰 렌더링
   if (viewMode.startsWith('flow-')) {
     const targetDomain = viewMode.replace('flow-', '') as DomainType | 'all';
@@ -163,7 +232,6 @@ export const App: React.FC = () => {
     };
 
     const currentMeta = titleMap[targetDomain] || titleMap.all;
-
     const isAll = targetDomain === 'all';
 
     return (
@@ -180,7 +248,6 @@ export const App: React.FC = () => {
     );
   }
 
-  // 화면에 렌더링할 조각
   const currentDisplayedPrizes = filteredPrizes.slice(0, visibleCount);
 
   return (
@@ -210,7 +277,6 @@ export const App: React.FC = () => {
 
         {/* 2. 경제학 포함/제외 토글 바 & 분야별 흐름도 */}
         <div className="max-w-md mx-auto mt-2 pt-2 border-t border-slate-800/60 flex items-center justify-between text-[11px] gap-2">
-          {/* 경제학 포함 여부 원클릭 체크박스 */}
           <button
             onClick={() => setIncludeEconomics(!includeEconomics)}
             className={`flex items-center gap-1 px-2 py-0.5 rounded border transition-colors ${
@@ -223,7 +289,6 @@ export const App: React.FC = () => {
             <span>경제학 {includeEconomics ? '포함됨' : '제외됨'}</span>
           </button>
 
-          {/* 분야별 흐름도 바로가기 링크 */}
           <div className="flex items-center gap-1 overflow-x-auto no-scrollbar">
             <button
               onClick={() => setViewMode('flow-physics')}
@@ -254,29 +319,33 @@ export const App: React.FC = () => {
           </div>
         </div>
 
-        {/* 3. 모드 탭 (시점 순 vs 연구 분야별 묶음) */}
+        {/* 3. 모드 탭 (시점 순 vs 학문/연구분야 유사성 묶음) */}
         <div className="max-w-md mx-auto mt-2 flex rounded-xl bg-slate-900/90 p-1 border border-slate-800">
           <button
-            onClick={() => { setViewMode('timeline'); setSelectedDomain('all'); }}
+            onClick={() => { setViewMode('timeline'); }}
             className={`flex-1 py-1 text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-all ${
               viewMode === 'timeline' ? 'bg-cyan-500 text-slate-950 shadow font-bold' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
             <Clock className="w-3 h-3" />
-            <span>수상 시점 순 (1901~2024)</span>
+            <span>수상 시점 순 (연대기)</span>
           </button>
           <button
-            onClick={() => { setViewMode('domain-group'); if (selectedDomain === 'all') setSelectedDomain('physics'); }}
+            onClick={() => { 
+              setViewMode('domain-group'); 
+              if (selectedDomain === 'all') setSelectedDomain('physics'); 
+              setSelectedSubField('all');
+            }}
             className={`flex-1 py-1 text-xs font-semibold rounded-lg flex items-center justify-center gap-1.5 transition-all ${
               viewMode === 'domain-group' ? 'bg-cyan-500 text-slate-950 shadow font-bold' : 'text-slate-400 hover:text-slate-200'
             }`}
           >
-            <Layers className="w-3 h-3" />
-            <span>분야별 묶음</span>
+            <Network className="w-3 h-3" />
+            <span>연구분야 유사성 묶음</span>
           </button>
         </div>
 
-        {/* 4. 분야 탭 바 */}
+        {/* 4. 4대 분야 선택 탭 바 */}
         <div className="max-w-md mx-auto mt-2 flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
           {viewMode === 'timeline' && (
             <button
@@ -292,7 +361,7 @@ export const App: React.FC = () => {
           )}
 
           <button
-            onClick={() => setSelectedDomain('physics')}
+            onClick={() => { setSelectedDomain('physics'); setSelectedSubField('all'); }}
             className={`px-2.5 py-0.5 rounded-full text-xs font-medium shrink-0 flex items-center gap-1 transition-colors ${
               selectedDomain === 'physics'
                 ? 'bg-blue-600 text-white font-bold'
@@ -303,7 +372,7 @@ export const App: React.FC = () => {
           </button>
 
           <button
-            onClick={() => setSelectedDomain('chemistry')}
+            onClick={() => { setSelectedDomain('chemistry'); setSelectedSubField('all'); }}
             className={`px-2.5 py-0.5 rounded-full text-xs font-medium shrink-0 flex items-center gap-1 transition-colors ${
               selectedDomain === 'chemistry'
                 ? 'bg-emerald-600 text-white font-bold'
@@ -314,7 +383,7 @@ export const App: React.FC = () => {
           </button>
 
           <button
-            onClick={() => setSelectedDomain('medicine')}
+            onClick={() => { setSelectedDomain('medicine'); setSelectedSubField('all'); }}
             className={`px-2.5 py-0.5 rounded-full text-xs font-medium shrink-0 flex items-center gap-1 transition-colors ${
               selectedDomain === 'medicine'
                 ? 'bg-rose-600 text-white font-bold'
@@ -326,7 +395,7 @@ export const App: React.FC = () => {
 
           {includeEconomics && (
             <button
-              onClick={() => setSelectedDomain('economics')}
+              onClick={() => { setSelectedDomain('economics'); setSelectedSubField('all'); }}
               className={`px-2.5 py-0.5 rounded-full text-xs font-medium shrink-0 flex items-center gap-1 transition-colors ${
                 selectedDomain === 'economics'
                   ? 'bg-amber-600 text-white font-bold'
@@ -338,12 +407,44 @@ export const App: React.FC = () => {
           )}
         </div>
 
-        {/* 5. 검색창 */}
+        {/* 5. [연구분야 유사성 묶음 모드 전용]: 세부 분과학문 필터 칩 레일 */}
+        {viewMode === 'domain-group' && availableSubFields.length > 0 && (
+          <div className="max-w-md mx-auto mt-2 pt-1.5 border-t border-slate-800/60">
+            <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+              <span className="text-[10px] text-slate-500 shrink-0 font-medium mr-0.5">유사성 클러스터:</span>
+              <button
+                onClick={() => setSelectedSubField('all')}
+                className={`text-[10px] px-2 py-0.5 rounded-full whitespace-nowrap transition-colors ${
+                  selectedSubField === 'all'
+                    ? 'bg-cyan-500 text-slate-950 font-bold'
+                    : 'bg-slate-900 text-slate-400 border border-slate-800'
+                }`}
+              >
+                전체 보기 ({availableSubFields.reduce((a, b) => a + b.count, 0)})
+              </button>
+              {availableSubFields.map(sub => (
+                <button
+                  key={sub.id}
+                  onClick={() => setSelectedSubField(sub.id)}
+                  className={`text-[10px] px-2 py-0.5 rounded-full whitespace-nowrap transition-colors ${
+                    selectedSubField === sub.id
+                      ? 'bg-cyan-500 text-slate-950 font-bold'
+                      : 'bg-slate-900 text-slate-300 border border-slate-800 hover:border-slate-700'
+                  }`}
+                >
+                  {sub.name} ({sub.count})
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* 6. 검색창 */}
         <div className="max-w-md mx-auto mt-2 relative">
           <Search className="w-3.5 h-3.5 absolute left-3 top-2 text-slate-500" />
           <input
             type="text"
-            placeholder="연도, 수상자, 연구 키워드 (예: 1918, 하버, DNA, AI)..."
+            placeholder="연도, 수상자, 연구 키워드 (예: 양자역학, DNA, 배터리)..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full bg-slate-900/90 border border-slate-800 rounded-xl pl-9 pr-3 py-1.5 text-xs text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 transition-colors"
@@ -351,7 +452,7 @@ export const App: React.FC = () => {
         </div>
       </header>
 
-      {/* 좌측 인터랙티브 인덱스 스크롤바 (시대별 앵커) */}
+      {/* 좌측 인터랙티브 인덱스 스크롤바 (시점 순 모드에서만 동작) */}
       {viewMode === 'timeline' && (
         <IndexScrubber
           anchors={eraAnchors}
@@ -360,33 +461,106 @@ export const App: React.FC = () => {
         />
       )}
 
-      {/* 메인 콘텐츠 영역 (1열 세로 스크롤 카드 피드) */}
-      <main className="max-w-md mx-auto pl-8 pr-4 pt-3">
-        {currentDisplayedPrizes.length === 0 ? (
-          <div className="text-center py-16 text-slate-500 text-xs">
-            해당 조건의 수상 내역이 없습니다.
-          </div>
-        ) : (
+      {/* 메인 콘텐츠 영역 */}
+      <main className={`max-w-md mx-auto pr-4 pt-3 ${viewMode === 'timeline' ? 'pl-8' : 'pl-4'}`}>
+        {/* 모드 1: 수상 시점 순 (Chronological Feed) */}
+        {viewMode === 'timeline' && (
           <>
-            {currentDisplayedPrizes.map((item) => (
-              <NobelCard
-                key={`${item.domain}-${item.year}-${item.id}`}
-                item={item}
-                onNavigateToFlow={(domain) => setViewMode(`flow-${domain}` as ViewMode)}
-              />
-            ))}
-
-            {visibleCount < filteredPrizes.length && (
-              <div className="text-center py-4">
-                <button
-                  onClick={() => setVisibleCount(prev => Math.min(prev + 40, filteredPrizes.length))}
-                  className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-400 text-xs font-semibold rounded-xl border border-slate-700 transition-colors"
-                >
-                  더 많은 연구 불러오기 ({visibleCount} / {filteredPrizes.length})
-                </button>
+            {currentDisplayedPrizes.length === 0 ? (
+              <div className="text-center py-16 text-slate-500 text-xs">
+                해당 조건의 수상 내역이 없습니다.
               </div>
+            ) : (
+              <>
+                {currentDisplayedPrizes.map((item) => (
+                  <NobelCard
+                    key={`${item.domain}-${item.year}-${item.id}`}
+                    item={item}
+                    onNavigateToFlow={(domain) => setViewMode(`flow-${domain}` as ViewMode)}
+                  />
+                ))}
+
+                {visibleCount < filteredPrizes.length && (
+                  <div className="text-center py-4">
+                    <button
+                      onClick={() => setVisibleCount(prev => Math.min(prev + 40, filteredPrizes.length))}
+                      className="px-4 py-2 bg-slate-800 hover:bg-slate-700 text-cyan-400 text-xs font-semibold rounded-xl border border-slate-700 transition-colors"
+                    >
+                      더 많은 연구 불러오기 ({visibleCount} / {filteredPrizes.length})
+                    </button>
+                  </div>
+                )}
+              </>
             )}
           </>
+        )}
+
+        {/* 모드 2: 학문/연구분야 유사성 묶음 뷰 (Thematic Semantic Clusters) */}
+        {viewMode === 'domain-group' && (
+          <div className="space-y-5">
+            <div className="bg-slate-900/70 p-3 rounded-2xl border border-cyan-900/50 mb-3 text-xs text-slate-300 leading-relaxed">
+              <span className="font-bold text-cyan-400">💡 연구분야 유사성 클러스터 뷰: </span>
+              시대와 상관없이 <span className="text-white font-semibold">{selectedDomain === 'physics' ? '물리학' : selectedDomain === 'chemistry' ? '화학' : selectedDomain === 'medicine' ? '생리의학' : '경제학'}</span> 내에서 본질적인 학문적 질문과 연구 대상(원리·기전·도구)의 유사성으로 묶어낸 학술 계보입니다.
+            </div>
+
+            {subFieldGroupedPrizes.length === 0 ? (
+              <div className="text-center py-16 text-slate-500 text-xs">
+                선택한 연구분야에 해당하는 수상 연구가 없습니다.
+              </div>
+            ) : (
+              subFieldGroupedPrizes.map((group) => {
+                const isExpanded = expandedClusters[group.subFieldId] !== false; // 기본 펼침
+
+                return (
+                  <section
+                    key={group.subFieldId}
+                    className="bg-slate-900/90 border border-slate-800 rounded-2xl overflow-hidden shadow-lg transition-all"
+                  >
+                    {/* 아코디언 헤더 */}
+                    <button
+                      onClick={() => toggleClusterExpand(group.subFieldId)}
+                      className="w-full p-4 flex items-center justify-between text-left hover:bg-slate-850 transition-colors border-b border-slate-800/60"
+                    >
+                      <div>
+                        <div className="flex items-center gap-2 mb-1">
+                          <Layers className="w-4 h-4 text-cyan-400 shrink-0" />
+                          <h2 className="text-sm font-bold text-white tracking-tight">
+                            {group.subFieldKo}
+                          </h2>
+                          <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-cyan-950 text-cyan-300 border border-cyan-800">
+                            총 {group.items.length}건
+                          </span>
+                        </div>
+                        <p className="text-[11px] text-slate-400 line-clamp-1">
+                          {group.subFieldDesc}
+                        </p>
+                      </div>
+
+                      <div className="p-1 rounded-lg bg-slate-800 text-slate-400 shrink-0 ml-2">
+                        {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                      </div>
+                    </button>
+
+                    {/* 클러스터 내부 연구 목록 (시간 순으로 누적된 연구 발전 흐름) */}
+                    {isExpanded && (
+                      <div className="p-3 space-y-3 bg-slate-950/40">
+                        <div className="text-[10px] text-slate-400 px-1 font-mono">
+                          ▼ 이 학문 분야 내에서의 연도별 진화 및 축적 ({group.items[0]?.year} ~ {group.items[group.items.length - 1]?.year})
+                        </div>
+                        {group.items.map((item) => (
+                          <NobelCard
+                            key={`${group.subFieldId}-${item.id}`}
+                            item={item}
+                            onNavigateToFlow={(domain) => setViewMode(`flow-${domain}` as ViewMode)}
+                          />
+                        ))}
+                      </div>
+                    )}
+                  </section>
+                );
+              })
+            )}
+          </div>
         )}
       </main>
 

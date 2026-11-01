@@ -22,7 +22,10 @@
       "화학",
       "1901년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "medicine-1901",
@@ -47,7 +50,10 @@
       "생리의학",
       "1901년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-immunology",
+    "subFieldKo": "면역학 & 면역항암치료",
+    "subFieldDesc": "선천/후천 면역, 항체 혈청 요법, 백신 및 면역관문억제제"
   },
   {
     "id": "physics-1901",
@@ -72,7 +78,10 @@
       "물리학",
       "1901년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1902",
@@ -97,7 +106,10 @@
       "화학",
       "1902년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1902",
@@ -122,7 +134,10 @@
       "생리의학",
       "1902년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-infectious",
+    "subFieldKo": "감염병 & 항생물질·미생물학",
+    "subFieldDesc": "세균·바이러스 병인학, 페니실린 등 항생물질 및 백신"
   },
   {
     "id": "physics-1902",
@@ -153,7 +168,10 @@
       "물리학",
       "1902년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1903",
@@ -178,7 +196,10 @@
       "화학",
       "1903년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1903",
@@ -203,7 +224,10 @@
       "생리의학",
       "1903년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1903",
@@ -240,7 +264,10 @@
       "물리학",
       "1903년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1904",
@@ -265,7 +292,10 @@
       "화학",
       "1904년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1904",
@@ -290,7 +320,10 @@
       "생리의학",
       "1904년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1904",
@@ -315,7 +348,10 @@
       "물리학",
       "1904년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1905",
@@ -340,7 +376,10 @@
       "화학",
       "1905년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1905",
@@ -365,7 +404,10 @@
       "생리의학",
       "1905년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-infectious",
+    "subFieldKo": "감염병 & 항생물질·미생물학",
+    "subFieldDesc": "세균·바이러스 병인학, 페니실린 등 항생물질 및 백신"
   },
   {
     "id": "physics-1905",
@@ -390,7 +432,10 @@
       "물리학",
       "1905년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1906",
@@ -415,7 +460,10 @@
       "화학",
       "1906년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1906",
@@ -446,7 +494,10 @@
       "생리의학",
       "1906년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1906",
@@ -471,7 +522,10 @@
       "물리학",
       "1906년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1907",
@@ -496,7 +550,10 @@
       "화학",
       "1907년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1907",
@@ -521,7 +578,10 @@
       "생리의학",
       "1907년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1907",
@@ -546,7 +606,10 @@
       "물리학",
       "1907년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1908",
@@ -571,7 +634,10 @@
       "화학",
       "1908년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "medicine-1908",
@@ -602,7 +668,10 @@
       "생리의학",
       "1908년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1908",
@@ -627,7 +696,10 @@
       "물리학",
       "1908년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1909",
@@ -652,7 +724,10 @@
       "화학",
       "1909년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1909",
@@ -677,7 +752,10 @@
       "생리의학",
       "1909년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1909",
@@ -708,7 +786,10 @@
       "물리학",
       "1909년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1910",
@@ -733,7 +814,10 @@
       "화학",
       "1910년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1910",
@@ -758,7 +842,10 @@
       "생리의학",
       "1910년",
       "혈청"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1910",
@@ -783,7 +870,10 @@
       "물리학",
       "1910년",
       "방사선과"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1911",
@@ -808,7 +898,10 @@
       "화학",
       "1911년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "medicine-1911",
@@ -833,7 +926,10 @@
       "생리의학",
       "1911년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1911",
@@ -858,7 +954,10 @@
       "물리학",
       "1911년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1912",
@@ -889,7 +988,10 @@
       "화학",
       "1912년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1912",
@@ -914,7 +1016,10 @@
       "생리의학",
       "1912년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1912",
@@ -939,7 +1044,10 @@
       "물리학",
       "1912년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1913",
@@ -964,7 +1072,10 @@
       "화학",
       "1913년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1913",
@@ -989,7 +1100,10 @@
       "생리의학",
       "1913년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1913",
@@ -1014,7 +1128,10 @@
       "물리학",
       "1913년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1914",
@@ -1039,7 +1156,10 @@
       "화학",
       "1914년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1914",
@@ -1064,7 +1184,10 @@
       "생리의학",
       "1914년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1914",
@@ -1089,7 +1212,10 @@
       "물리학",
       "1914년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1915",
@@ -1114,7 +1240,10 @@
       "화학",
       "1915년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "physics-1915",
@@ -1145,7 +1274,10 @@
       "물리학",
       "1915년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "physics-1917",
@@ -1170,7 +1302,10 @@
       "물리학",
       "1917년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1918",
@@ -1195,7 +1330,10 @@
       "화학",
       "1918년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "physics-1918",
@@ -1220,7 +1358,10 @@
       "물리학",
       "1918년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "medicine-1919",
@@ -1245,7 +1386,10 @@
       "생리의학",
       "1919년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1919",
@@ -1270,7 +1414,10 @@
       "물리학",
       "1919년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1920",
@@ -1295,7 +1442,10 @@
       "화학",
       "1920년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1920",
@@ -1320,7 +1470,10 @@
       "생리의학",
       "1920년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1920",
@@ -1345,7 +1498,10 @@
       "물리학",
       "1920년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1921",
@@ -1370,7 +1526,10 @@
       "화학",
       "1921년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "physics-1921",
@@ -1395,7 +1554,10 @@
       "물리학",
       "1921년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-1922",
@@ -1420,7 +1582,10 @@
       "화학",
       "1922년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "medicine-1922",
@@ -1451,7 +1616,10 @@
       "생리의학",
       "1922년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1922",
@@ -1476,7 +1644,10 @@
       "물리학",
       "1922년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1923",
@@ -1501,7 +1672,10 @@
       "화학",
       "1923년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1923",
@@ -1532,7 +1706,10 @@
       "생리의학",
       "1923년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1923",
@@ -1557,7 +1734,10 @@
       "물리학",
       "1923년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "medicine-1924",
@@ -1582,7 +1762,10 @@
       "생리의학",
       "1924년",
       "심전도(ECG),"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1924",
@@ -1607,7 +1790,10 @@
       "물리학",
       "1924년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1925",
@@ -1632,7 +1818,10 @@
       "화학",
       "1925년",
       "방사화학과"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "physics-1925",
@@ -1663,7 +1852,10 @@
       "물리학",
       "1925년",
       "빛의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1926",
@@ -1688,7 +1880,10 @@
       "화학",
       "1926년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1926",
@@ -1713,7 +1908,10 @@
       "생리의학",
       "1926년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1926",
@@ -1738,7 +1936,10 @@
       "물리학",
       "1926년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1927",
@@ -1763,7 +1964,10 @@
       "화학",
       "1927년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1927",
@@ -1788,7 +1992,10 @@
       "생리의학",
       "1927년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-infectious",
+    "subFieldKo": "감염병 & 항생물질·미생물학",
+    "subFieldDesc": "세균·바이러스 병인학, 페니실린 등 항생물질 및 백신"
   },
   {
     "id": "physics-1927",
@@ -1819,7 +2026,10 @@
       "물리학",
       "1927년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1928",
@@ -1844,7 +2054,10 @@
       "화학",
       "1928년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1928",
@@ -1869,7 +2082,10 @@
       "생리의학",
       "1928년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1928",
@@ -1894,7 +2110,10 @@
       "물리학",
       "1928년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1929",
@@ -1925,7 +2144,10 @@
       "화학",
       "1929년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1929",
@@ -1956,7 +2178,10 @@
       "생리의학",
       "1929년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1929",
@@ -1981,7 +2206,10 @@
       "물리학",
       "1929년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-1930",
@@ -2006,7 +2234,10 @@
       "화학",
       "1930년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1930",
@@ -2031,7 +2262,10 @@
       "생리의학",
       "1930년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1930",
@@ -2056,7 +2290,10 @@
       "물리학",
       "1930년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1931",
@@ -2087,7 +2324,10 @@
       "화학",
       "1931년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1931",
@@ -2112,7 +2352,10 @@
       "생리의학",
       "1931년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "chemistry-1932",
@@ -2137,7 +2380,10 @@
       "화학",
       "1932년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "medicine-1932",
@@ -2168,7 +2414,10 @@
       "생리의학",
       "1932년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-neuro",
+    "subFieldKo": "신경과학 & 뇌인지 생리학",
+    "subFieldDesc": "시냅스 신호전달, 뇌 지도, 후각 수용체 및 감각 생리"
   },
   {
     "id": "physics-1932",
@@ -2193,7 +2442,10 @@
       "물리학",
       "1932년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "medicine-1933",
@@ -2218,7 +2470,10 @@
       "생리의학",
       "1933년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1933",
@@ -2249,7 +2504,10 @@
       "물리학",
       "1933년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1934",
@@ -2274,7 +2532,10 @@
       "화학",
       "1934년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1934",
@@ -2311,7 +2572,10 @@
       "생리의학",
       "1934년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "chemistry-1935",
@@ -2342,7 +2606,10 @@
       "화학",
       "1935년",
       "화학"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1935",
@@ -2367,7 +2634,10 @@
       "생리의학",
       "1935년",
       "비타민"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1935",
@@ -2392,7 +2662,10 @@
       "물리학",
       "1935년",
       "양자역학의"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1936",
@@ -2417,7 +2690,10 @@
       "화학",
       "1936년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1936",
@@ -2448,7 +2724,10 @@
       "생리의학",
       "1936년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-neuro",
+    "subFieldKo": "신경과학 & 뇌인지 생리학",
+    "subFieldDesc": "시냅스 신호전달, 뇌 지도, 후각 수용체 및 감각 생리"
   },
   {
     "id": "physics-1936",
@@ -2479,7 +2758,10 @@
       "물리학",
       "1936년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1937",
@@ -2510,7 +2792,10 @@
       "화학",
       "1937년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1937",
@@ -2535,7 +2820,10 @@
       "생리의학",
       "1937년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1937",
@@ -2566,7 +2854,10 @@
       "물리학",
       "1937년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1938",
@@ -2591,7 +2882,10 @@
       "화학",
       "1938년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1938",
@@ -2616,7 +2910,10 @@
       "생리의학",
       "1938년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1938",
@@ -2641,7 +2938,10 @@
       "물리학",
       "1938년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1939",
@@ -2672,7 +2972,10 @@
       "화학",
       "1939년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1939",
@@ -2697,7 +3000,10 @@
       "생리의학",
       "1939년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-infectious",
+    "subFieldKo": "감염병 & 항생물질·미생물학",
+    "subFieldDesc": "세균·바이러스 병인학, 페니실린 등 항생물질 및 백신"
   },
   {
     "id": "physics-1939",
@@ -2722,7 +3028,10 @@
       "물리학",
       "1939년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1943",
@@ -2747,7 +3056,10 @@
       "화학",
       "1943년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "medicine-1943",
@@ -2778,7 +3090,10 @@
       "생리의학",
       "1943년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1943",
@@ -2803,7 +3118,10 @@
       "물리학",
       "1943년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1944",
@@ -2828,7 +3146,10 @@
       "화학",
       "1944년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "medicine-1944",
@@ -2859,7 +3180,10 @@
       "생리의학",
       "1944년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-neuro",
+    "subFieldKo": "신경과학 & 뇌인지 생리학",
+    "subFieldDesc": "시냅스 신호전달, 뇌 지도, 후각 수용체 및 감각 생리"
   },
   {
     "id": "physics-1944",
@@ -2884,7 +3208,10 @@
       "물리학",
       "1944년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1945",
@@ -2909,7 +3236,10 @@
       "화학",
       "1945년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1945",
@@ -2946,7 +3276,10 @@
       "생리의학",
       "1945년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-infectious",
+    "subFieldKo": "감염병 & 항생물질·미생물학",
+    "subFieldDesc": "세균·바이러스 병인학, 페니실린 등 항생물질 및 백신"
   },
   {
     "id": "physics-1945",
@@ -2971,7 +3304,10 @@
       "물리학",
       "1945년",
       "중성자"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1946",
@@ -3008,7 +3344,10 @@
       "화학",
       "1946년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1946",
@@ -3033,7 +3372,10 @@
       "생리의학",
       "1946년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1946",
@@ -3058,7 +3400,10 @@
       "물리학",
       "1946년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1947",
@@ -3083,7 +3428,10 @@
       "화학",
       "1947년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1947",
@@ -3120,7 +3468,10 @@
       "생리의학",
       "1947년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1947",
@@ -3145,7 +3496,10 @@
       "물리학",
       "1947년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1948",
@@ -3170,7 +3524,10 @@
       "화학",
       "1948년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1948",
@@ -3195,7 +3552,10 @@
       "생리의학",
       "1948년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1948",
@@ -3220,7 +3580,10 @@
       "물리학",
       "1948년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1949",
@@ -3245,7 +3608,10 @@
       "화학",
       "1949년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "medicine-1949",
@@ -3276,7 +3642,10 @@
       "생리의학",
       "1949년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1949",
@@ -3301,7 +3670,10 @@
       "물리학",
       "1949년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1950",
@@ -3332,7 +3704,10 @@
       "화학",
       "1950년",
       "동위원소"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1950",
@@ -3369,7 +3744,10 @@
       "생리의학",
       "1950년",
       "페니실린"
-    ]
+    ],
+    "subFieldId": "med-neuro",
+    "subFieldKo": "신경과학 & 뇌인지 생리학",
+    "subFieldDesc": "시냅스 신호전달, 뇌 지도, 후각 수용체 및 감각 생리"
   },
   {
     "id": "physics-1950",
@@ -3394,7 +3772,10 @@
       "물리학",
       "1950년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1951",
@@ -3425,7 +3806,10 @@
       "화학",
       "1951년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "medicine-1951",
@@ -3450,7 +3834,10 @@
       "생리의학",
       "1951년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1951",
@@ -3481,7 +3868,10 @@
       "물리학",
       "1951년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1952",
@@ -3512,7 +3902,10 @@
       "화학",
       "1952년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1952",
@@ -3537,7 +3930,10 @@
       "생리의학",
       "1952년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1952",
@@ -3568,7 +3964,10 @@
       "물리학",
       "1952년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1953",
@@ -3593,7 +3992,10 @@
       "화학",
       "1953년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1953",
@@ -3624,7 +4026,10 @@
       "생리의학",
       "1953년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1953",
@@ -3649,7 +4054,10 @@
       "물리학",
       "1953년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1954",
@@ -3674,7 +4082,10 @@
       "화학",
       "1954년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "medicine-1954",
@@ -3711,7 +4122,10 @@
       "생리의학",
       "1954년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1954",
@@ -3742,7 +4156,10 @@
       "물리학",
       "1954년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-1955",
@@ -3767,7 +4184,10 @@
       "화학",
       "1955년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1955",
@@ -3792,7 +4212,10 @@
       "생리의학",
       "1955년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1955",
@@ -3823,7 +4246,10 @@
       "물리학",
       "1955년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1956",
@@ -3854,7 +4280,10 @@
       "화학",
       "1956년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1956",
@@ -3891,7 +4320,10 @@
       "생리의학",
       "1956년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1956",
@@ -3928,7 +4360,10 @@
       "물리학",
       "1956년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1957",
@@ -3953,7 +4388,10 @@
       "화학",
       "1957년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1957",
@@ -3978,7 +4416,10 @@
       "생리의학",
       "1957년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1957",
@@ -4009,7 +4450,10 @@
       "물리학",
       "1957년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1958",
@@ -4034,7 +4478,10 @@
       "화학",
       "1958년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1958",
@@ -4071,7 +4518,10 @@
       "생리의학",
       "1958년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1958",
@@ -4108,7 +4558,10 @@
       "물리학",
       "1958년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1959",
@@ -4133,7 +4586,10 @@
       "화학",
       "1959년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1959",
@@ -4164,7 +4620,10 @@
       "생리의학",
       "1959년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1959",
@@ -4195,7 +4654,10 @@
       "물리학",
       "1959년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1960",
@@ -4220,7 +4682,10 @@
       "화학",
       "1960년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1960",
@@ -4251,7 +4716,10 @@
       "생리의학",
       "1960년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1960",
@@ -4276,7 +4744,10 @@
       "물리학",
       "1960년",
       "반도체·트랜지스터와"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1961",
@@ -4301,7 +4772,10 @@
       "화학",
       "1961년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1961",
@@ -4326,7 +4800,10 @@
       "생리의학",
       "1961년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1961",
@@ -4357,7 +4834,10 @@
       "물리학",
       "1961년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1962",
@@ -4388,7 +4868,10 @@
       "화학",
       "1962년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1962",
@@ -4425,7 +4908,10 @@
       "생리의학",
       "1962년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1962",
@@ -4450,7 +4936,10 @@
       "물리학",
       "1962년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1963",
@@ -4481,7 +4970,10 @@
       "화학",
       "1963년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1963",
@@ -4518,7 +5010,10 @@
       "생리의학",
       "1963년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1963",
@@ -4555,7 +5050,10 @@
       "물리학",
       "1963년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1964",
@@ -4580,7 +5078,10 @@
       "화학",
       "1964년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "medicine-1964",
@@ -4611,7 +5112,10 @@
       "생리의학",
       "1964년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1964",
@@ -4648,7 +5152,10 @@
       "물리학",
       "1964년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-1965",
@@ -4673,7 +5180,10 @@
       "화학",
       "1965년",
       "고분자"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "medicine-1965",
@@ -4710,7 +5220,10 @@
       "생리의학",
       "1965년",
       "DNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1965",
@@ -4747,7 +5260,10 @@
       "물리학",
       "1965년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-1966",
@@ -4772,7 +5288,10 @@
       "화학",
       "1966년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1966",
@@ -4803,7 +5322,10 @@
       "생리의학",
       "1966년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-infectious",
+    "subFieldKo": "감염병 & 항생물질·미생물학",
+    "subFieldDesc": "세균·바이러스 병인학, 페니실린 등 항생물질 및 백신"
   },
   {
     "id": "physics-1966",
@@ -4828,7 +5350,10 @@
       "물리학",
       "1966년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1967",
@@ -4865,7 +5390,10 @@
       "화학",
       "1967년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "medicine-1967",
@@ -4902,7 +5430,10 @@
       "생리의학",
       "1967년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1967",
@@ -4927,7 +5458,10 @@
       "물리학",
       "1967년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-1968",
@@ -4952,7 +5486,10 @@
       "화학",
       "1968년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "medicine-1968",
@@ -4989,7 +5526,10 @@
       "생리의학",
       "1968년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1968",
@@ -5014,7 +5554,10 @@
       "물리학",
       "1968년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1969",
@@ -5045,7 +5588,10 @@
       "화학",
       "1969년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1969",
@@ -5076,7 +5622,10 @@
       "경제학",
       "1969년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1969",
@@ -5113,7 +5662,10 @@
       "생리의학",
       "1969년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1969",
@@ -5138,7 +5690,10 @@
       "물리학",
       "1969년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1970",
@@ -5163,7 +5718,10 @@
       "화학",
       "1970년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1970",
@@ -5188,7 +5746,10 @@
       "경제학",
       "1970년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1970",
@@ -5225,7 +5786,10 @@
       "생리의학",
       "1970년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-neuro",
+    "subFieldKo": "신경과학 & 뇌인지 생리학",
+    "subFieldDesc": "시냅스 신호전달, 뇌 지도, 후각 수용체 및 감각 생리"
   },
   {
     "id": "physics-1970",
@@ -5256,7 +5820,10 @@
       "물리학",
       "1970년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1971",
@@ -5281,7 +5848,10 @@
       "화학",
       "1971년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1971",
@@ -5306,7 +5876,10 @@
       "경제학",
       "1971년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-1971",
@@ -5331,7 +5904,10 @@
       "생리의학",
       "1971년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1971",
@@ -5356,7 +5932,10 @@
       "물리학",
       "1971년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1972",
@@ -5393,7 +5972,10 @@
       "화학",
       "1972년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-1972",
@@ -5424,7 +6006,10 @@
       "경제학",
       "1972년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1972",
@@ -5455,7 +6040,10 @@
       "생리의학",
       "1972년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-immunology",
+    "subFieldKo": "면역학 & 면역항암치료",
+    "subFieldDesc": "선천/후천 면역, 항체 혈청 요법, 백신 및 면역관문억제제"
   },
   {
     "id": "physics-1972",
@@ -5492,7 +6080,10 @@
       "물리학",
       "1972년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1973",
@@ -5523,7 +6114,10 @@
       "화학",
       "1973년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "economics-1973",
@@ -5548,7 +6142,10 @@
       "경제학",
       "1973년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1973",
@@ -5585,7 +6182,10 @@
       "생리의학",
       "1973년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1973",
@@ -5622,7 +6222,10 @@
       "물리학",
       "1973년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1974",
@@ -5647,7 +6250,10 @@
       "화학",
       "1974년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1974",
@@ -5678,7 +6284,10 @@
       "경제학",
       "1974년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1974",
@@ -5715,7 +6324,10 @@
       "생리의학",
       "1974년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1974",
@@ -5746,7 +6358,10 @@
       "물리학",
       "1974년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-1975",
@@ -5777,7 +6392,10 @@
       "화학",
       "1975년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-1975",
@@ -5808,7 +6426,10 @@
       "경제학",
       "1975년",
       "계량경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1975",
@@ -5845,7 +6466,10 @@
       "생리의학",
       "1975년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1975",
@@ -5882,7 +6506,10 @@
       "물리학",
       "1975년",
       "소립자"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1976",
@@ -5907,7 +6534,10 @@
       "화학",
       "1976년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1976",
@@ -5932,7 +6562,10 @@
       "경제학",
       "1976년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-1976",
@@ -5963,7 +6596,10 @@
       "생리의학",
       "1976년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1976",
@@ -5994,7 +6630,10 @@
       "물리학",
       "1976년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1977",
@@ -6019,7 +6658,10 @@
       "화학",
       "1977년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "economics-1977",
@@ -6050,7 +6692,10 @@
       "경제학",
       "1977년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1977",
@@ -6087,7 +6732,10 @@
       "생리의학",
       "1977년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-neuro",
+    "subFieldKo": "신경과학 & 뇌인지 생리학",
+    "subFieldDesc": "시냅스 신호전달, 뇌 지도, 후각 수용체 및 감각 생리"
   },
   {
     "id": "physics-1977",
@@ -6124,7 +6772,10 @@
       "물리학",
       "1977년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1978",
@@ -6149,7 +6800,10 @@
       "화학",
       "1978년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1978",
@@ -6174,7 +6828,10 @@
       "경제학",
       "1978년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1978",
@@ -6211,7 +6868,10 @@
       "생리의학",
       "1978년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1978",
@@ -6248,7 +6908,10 @@
       "물리학",
       "1978년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1979",
@@ -6279,7 +6942,10 @@
       "화학",
       "1979년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1979",
@@ -6310,7 +6976,10 @@
       "경제학",
       "1979년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1979",
@@ -6341,7 +7010,10 @@
       "생리의학",
       "1979년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1979",
@@ -6378,7 +7050,10 @@
       "물리학",
       "1979년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1980",
@@ -6415,7 +7090,10 @@
       "화학",
       "1980년",
       "유기금속"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-1980",
@@ -6440,7 +7118,10 @@
       "경제학",
       "1980년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-1980",
@@ -6477,7 +7158,10 @@
       "생리의학",
       "1980년",
       "면역글로불린,"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1980",
@@ -6508,7 +7192,10 @@
       "물리학",
       "1980년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1981",
@@ -6539,7 +7226,10 @@
       "화학",
       "1981년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1981",
@@ -6564,7 +7254,10 @@
       "경제학",
       "1981년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1981",
@@ -6601,7 +7294,10 @@
       "생리의학",
       "1981년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1981",
@@ -6638,7 +7334,10 @@
       "물리학",
       "1981년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1982",
@@ -6663,7 +7362,10 @@
       "화학",
       "1982년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-1982",
@@ -6688,7 +7390,10 @@
       "경제학",
       "1982년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1982",
@@ -6725,7 +7430,10 @@
       "생리의학",
       "1982년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1982",
@@ -6750,7 +7458,10 @@
       "물리학",
       "1982년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1983",
@@ -6775,7 +7486,10 @@
       "화학",
       "1983년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "economics-1983",
@@ -6800,7 +7514,10 @@
       "경제학",
       "1983년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1983",
@@ -6825,7 +7542,10 @@
       "생리의학",
       "1983년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1983",
@@ -6856,7 +7576,10 @@
       "물리학",
       "1983년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-1984",
@@ -6881,7 +7604,10 @@
       "화학",
       "1984년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1984",
@@ -6906,7 +7632,10 @@
       "경제학",
       "1984년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-1984",
@@ -6943,7 +7672,10 @@
       "생리의학",
       "1984년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-immunology",
+    "subFieldKo": "면역학 & 면역항암치료",
+    "subFieldDesc": "선천/후천 면역, 항체 혈청 요법, 백신 및 면역관문억제제"
   },
   {
     "id": "physics-1984",
@@ -6974,7 +7706,10 @@
       "물리학",
       "1984년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1985",
@@ -7005,7 +7740,10 @@
       "화학",
       "1985년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1985",
@@ -7030,7 +7768,10 @@
       "경제학",
       "1985년",
       "화폐경제학,"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1985",
@@ -7061,7 +7802,10 @@
       "생리의학",
       "1985년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1985",
@@ -7086,7 +7830,10 @@
       "물리학",
       "1985년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1986",
@@ -7123,7 +7870,10 @@
       "화학",
       "1986년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "economics-1986",
@@ -7148,7 +7898,10 @@
       "경제학",
       "1986년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1986",
@@ -7179,7 +7932,10 @@
       "생리의학",
       "1986년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1986",
@@ -7216,7 +7972,10 @@
       "물리학",
       "1986년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1987",
@@ -7253,7 +8012,10 @@
       "화학",
       "1987년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1987",
@@ -7278,7 +8040,10 @@
       "경제학",
       "1987년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-1987",
@@ -7303,7 +8068,10 @@
       "생리의학",
       "1987년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1987",
@@ -7334,7 +8102,10 @@
       "물리학",
       "1987년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1988",
@@ -7371,7 +8142,10 @@
       "화학",
       "1988년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1988",
@@ -7396,7 +8170,10 @@
       "경제학",
       "1988년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1988",
@@ -7433,7 +8210,10 @@
       "생리의학",
       "1988년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1988",
@@ -7470,7 +8250,10 @@
       "물리학",
       "1988년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1989",
@@ -7501,7 +8284,10 @@
       "화학",
       "1989년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-1989",
@@ -7526,7 +8312,10 @@
       "경제학",
       "1989년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-1989",
@@ -7557,7 +8346,10 @@
       "생리의학",
       "1989년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1989",
@@ -7594,7 +8386,10 @@
       "물리학",
       "1989년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1990",
@@ -7619,7 +8414,10 @@
       "화학",
       "1990년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1990",
@@ -7656,7 +8454,10 @@
       "경제학",
       "1990년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1990",
@@ -7687,7 +8488,10 @@
       "생리의학",
       "1990년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1990",
@@ -7724,7 +8528,10 @@
       "물리학",
       "1990년",
       "응집물질·초전도체"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1991",
@@ -7749,7 +8556,10 @@
       "화학",
       "1991년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "economics-1991",
@@ -7774,7 +8584,10 @@
       "경제학",
       "1991년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1991",
@@ -7805,7 +8618,10 @@
       "생리의학",
       "1991년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1991",
@@ -7830,7 +8646,10 @@
       "물리학",
       "1991년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-1992",
@@ -7855,7 +8674,10 @@
       "화학",
       "1992년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1992",
@@ -7880,7 +8702,10 @@
       "경제학",
       "1992년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1992",
@@ -7911,7 +8736,10 @@
       "생리의학",
       "1992년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-physiology",
+    "subFieldKo": "임상 생리학 & 의료 진단기술",
+    "subFieldDesc": "심전도, 혈압 조절, 비타민 대사, CT/MRI 영상 진단"
   },
   {
     "id": "physics-1992",
@@ -7936,7 +8764,10 @@
       "물리학",
       "1992년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-1993",
@@ -7967,7 +8798,10 @@
       "화학",
       "1993년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1993",
@@ -7998,7 +8832,10 @@
       "경제학",
       "1993년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1993",
@@ -8029,7 +8866,10 @@
       "생리의학",
       "1993년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1993",
@@ -8060,7 +8900,10 @@
       "물리학",
       "1993년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-1994",
@@ -8085,7 +8928,10 @@
       "화학",
       "1994년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1994",
@@ -8122,7 +8968,10 @@
       "경제학",
       "1994년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-game",
+    "subFieldKo": "게임이론 & 전략적 상호작용",
+    "subFieldDesc": "내시 균형, 불완전정보 게임, 경매 설계 및 행동 전략"
   },
   {
     "id": "medicine-1994",
@@ -8153,7 +9002,10 @@
       "생리의학",
       "1994년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-cellbio",
+    "subFieldKo": "세포생물학 & 줄기세포·발생학",
+    "subFieldDesc": "세포 주기, 막 단백질/이온 통로, 유도만능줄기세포(iPSC)"
   },
   {
     "id": "physics-1994",
@@ -8184,7 +9036,10 @@
       "물리학",
       "1994년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-nuclear",
+    "subFieldKo": "핵물리학 & 방사선",
+    "subFieldDesc": "원자핵 구조, 중성자, 핵분열 및 방사성 붕괴"
   },
   {
     "id": "chemistry-1995",
@@ -8221,7 +9076,10 @@
       "화학",
       "1995년",
       "PCR"
-    ]
+    ],
+    "subFieldId": "chem-env",
+    "subFieldKo": "환경·대기화학 & 지속가능 화학",
+    "subFieldDesc": "성층권 오존층 보존, 환경 모니터링 및 녹색 화학"
   },
   {
     "id": "economics-1995",
@@ -8246,7 +9104,10 @@
       "경제학",
       "1995년",
       "비협조"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-1995",
@@ -8283,7 +9144,10 @@
       "생리의학",
       "1995년",
       "세포"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1995",
@@ -8314,7 +9178,10 @@
       "물리학",
       "1995년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1996",
@@ -8351,7 +9218,10 @@
       "화학",
       "1996년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1996",
@@ -8382,7 +9252,10 @@
       "경제학",
       "1996년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1996",
@@ -8413,7 +9286,10 @@
       "생리의학",
       "1996년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1996",
@@ -8450,7 +9326,10 @@
       "물리학",
       "1996년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-1997",
@@ -8487,7 +9366,10 @@
       "화학",
       "1997년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-1997",
@@ -8518,7 +9400,10 @@
       "경제학",
       "1997년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-1997",
@@ -8543,7 +9428,10 @@
       "생리의학",
       "1997년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1997",
@@ -8580,7 +9468,10 @@
       "물리학",
       "1997년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-1998",
@@ -8611,7 +9502,10 @@
       "화학",
       "1998년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-1998",
@@ -8636,7 +9530,10 @@
       "경제학",
       "1998년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-1998",
@@ -8673,7 +9570,10 @@
       "생리의학",
       "1998년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1998",
@@ -8710,7 +9610,10 @@
       "물리학",
       "1998년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-1999",
@@ -8735,7 +9638,10 @@
       "화학",
       "1999년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "economics-1999",
@@ -8760,7 +9666,10 @@
       "경제학",
       "1999년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-1999",
@@ -8785,7 +9694,10 @@
       "생리의학",
       "1999년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-1999",
@@ -8816,7 +9728,10 @@
       "물리학",
       "1999년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-2000",
@@ -8853,7 +9768,10 @@
       "화학",
       "2000년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2000",
@@ -8884,7 +9802,10 @@
       "경제학",
       "2000년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2000",
@@ -8921,7 +9842,10 @@
       "생리의학",
       "2000년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2000",
@@ -8958,7 +9882,10 @@
       "물리학",
       "2000년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-2001",
@@ -8995,7 +9922,10 @@
       "화학",
       "2001년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2001",
@@ -9032,7 +9962,10 @@
       "경제학",
       "2001년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-2001",
@@ -9069,7 +10002,10 @@
       "생리의학",
       "2001년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2001",
@@ -9106,7 +10042,10 @@
       "물리학",
       "2001년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-2002",
@@ -9143,7 +10082,10 @@
       "화학",
       "2002년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2002",
@@ -9174,7 +10116,10 @@
       "경제학",
       "2002년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2002",
@@ -9211,7 +10156,10 @@
       "생리의학",
       "2002년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2002",
@@ -9248,7 +10196,10 @@
       "물리학",
       "2002년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-2003",
@@ -9279,7 +10230,10 @@
       "화학",
       "2003년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-2003",
@@ -9310,7 +10264,10 @@
       "경제학",
       "2003년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-2003",
@@ -9341,7 +10298,10 @@
       "생리의학",
       "2003년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2003",
@@ -9378,7 +10338,10 @@
       "물리학",
       "2003년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-2004",
@@ -9415,7 +10378,10 @@
       "화학",
       "2004년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2004",
@@ -9446,7 +10412,10 @@
       "경제학",
       "2004년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2004",
@@ -9477,7 +10446,10 @@
       "생리의학",
       "2004년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2004",
@@ -9514,7 +10486,10 @@
       "물리학",
       "2004년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-2005",
@@ -9551,7 +10526,10 @@
       "화학",
       "2005년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2005",
@@ -9582,7 +10560,10 @@
       "경제학",
       "2005년",
       "정보"
-    ]
+    ],
+    "subFieldId": "econ-game",
+    "subFieldKo": "게임이론 & 전략적 상호작용",
+    "subFieldDesc": "내시 균형, 불완전정보 게임, 경매 설계 및 행동 전략"
   },
   {
     "id": "medicine-2005",
@@ -9613,7 +10594,10 @@
       "생리의학",
       "2005년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2005",
@@ -9650,7 +10634,10 @@
       "물리학",
       "2005년",
       "보스-아인슈타인"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-2006",
@@ -9675,7 +10662,10 @@
       "화학",
       "2006년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-2006",
@@ -9700,7 +10690,10 @@
       "경제학",
       "2006년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2006",
@@ -9731,7 +10724,10 @@
       "생리의학",
       "2006년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2006",
@@ -9762,7 +10758,10 @@
       "물리학",
       "2006년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-2007",
@@ -9787,7 +10786,10 @@
       "화학",
       "2007년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "economics-2007",
@@ -9824,7 +10826,10 @@
       "경제학",
       "2007년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-2007",
@@ -9861,7 +10866,10 @@
       "생리의학",
       "2007년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2007",
@@ -9892,7 +10900,10 @@
       "물리학",
       "2007년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-2008",
@@ -9929,7 +10940,10 @@
       "화학",
       "2008년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2008",
@@ -9954,7 +10968,10 @@
       "경제학",
       "2008년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-2008",
@@ -9991,7 +11008,10 @@
       "생리의학",
       "2008년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2008",
@@ -10028,7 +11048,10 @@
       "물리학",
       "2008년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-2009",
@@ -10065,7 +11088,10 @@
       "화학",
       "2009년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2009",
@@ -10096,7 +11122,10 @@
       "경제학",
       "2009년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-2009",
@@ -10133,7 +11162,10 @@
       "생리의학",
       "2009년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2009",
@@ -10170,7 +11202,10 @@
       "물리학",
       "2009년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-2010",
@@ -10207,7 +11242,10 @@
       "화학",
       "2010년",
       "올레핀"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2010",
@@ -10244,7 +11282,10 @@
       "경제학",
       "2010년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-2010",
@@ -10269,7 +11310,10 @@
       "생리의학",
       "2010년",
       "RNA"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2010",
@@ -10300,7 +11344,10 @@
       "물리학",
       "2010년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-condensed",
+    "subFieldKo": "응집물질 & 반도체 물성",
+    "subFieldDesc": "고체물리, 초전도체, 반도체 트랜지스터 및 2차원 나노소재"
   },
   {
     "id": "chemistry-2011",
@@ -10325,7 +11372,10 @@
       "화학",
       "2011년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-2011",
@@ -10356,7 +11406,10 @@
       "경제학",
       "2011년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2011",
@@ -10393,7 +11446,10 @@
       "생리의학",
       "2011년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2011",
@@ -10430,7 +11486,10 @@
       "물리학",
       "2011년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-2012",
@@ -10461,7 +11520,10 @@
       "화학",
       "2012년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2012",
@@ -10492,7 +11554,10 @@
       "경제학",
       "2012년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-2012",
@@ -10523,7 +11588,10 @@
       "생리의학",
       "2012년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2012",
@@ -10554,7 +11622,10 @@
       "물리학",
       "2012년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-2013",
@@ -10591,7 +11662,10 @@
       "화학",
       "2013년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-inorganic",
+    "subFieldKo": "무기화학 & 방사화학",
+    "subFieldDesc": "착물 화학, 방사성 동위원소, 유기금속 및 결정 격자"
   },
   {
     "id": "economics-2013",
@@ -10628,7 +11702,10 @@
       "경제학",
       "2013년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-2013",
@@ -10665,7 +11742,10 @@
       "생리의학",
       "2013년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2013",
@@ -10696,7 +11776,10 @@
       "물리학",
       "2013년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-2014",
@@ -10733,7 +11816,10 @@
       "화학",
       "2014년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-2014",
@@ -10758,7 +11844,10 @@
       "경제학",
       "2014년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-2014",
@@ -10795,7 +11884,10 @@
       "생리의학",
       "2014년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2014",
@@ -10832,7 +11924,10 @@
       "물리학",
       "2014년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-2015",
@@ -10869,7 +11964,10 @@
       "화학",
       "2015년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2015",
@@ -10894,7 +11992,10 @@
       "경제학",
       "2015년",
       "무작위"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2015",
@@ -10931,7 +12032,10 @@
       "생리의학",
       "2015년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2015",
@@ -10962,7 +12066,10 @@
       "물리학",
       "2015년",
       "그래핀,"
-    ]
+    ],
+    "subFieldId": "phys-particle",
+    "subFieldKo": "입자물리학 & 표준모형",
+    "subFieldDesc": "기본 입자(쿼크·렙톤·보손), 통일장이론 및 고에너지 가속기"
   },
   {
     "id": "chemistry-2016",
@@ -10999,7 +12106,10 @@
       "화학",
       "2016년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2016",
@@ -11030,7 +12140,10 @@
       "경제학",
       "2016년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2016",
@@ -11055,7 +12168,10 @@
       "생리의학",
       "2016년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2016",
@@ -11092,7 +12208,10 @@
       "물리학",
       "2016년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-2017",
@@ -11129,7 +12248,10 @@
       "화학",
       "2017년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-2017",
@@ -11154,7 +12276,10 @@
       "경제학",
       "2017년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2017",
@@ -11191,7 +12316,10 @@
       "생리의학",
       "2017년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2017",
@@ -11228,7 +12356,10 @@
       "물리학",
       "2017년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-2018",
@@ -11265,7 +12396,10 @@
       "화학",
       "2018년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2018",
@@ -11296,7 +12430,10 @@
       "경제학",
       "2018년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2018",
@@ -11327,7 +12464,10 @@
       "생리의학",
       "2018년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2018",
@@ -11364,7 +12504,10 @@
       "물리학",
       "2018년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-2019",
@@ -11401,7 +12544,10 @@
       "화학",
       "2019년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-physical",
+    "subFieldKo": "물리화학 & 전기화학/배터리",
+    "subFieldDesc": "반응동역학, 삼투압, 분자궤도함수 계산 및 리튬 2차전지"
   },
   {
     "id": "economics-2019",
@@ -11438,7 +12584,10 @@
       "경제학",
       "2019년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2019",
@@ -11475,7 +12624,10 @@
       "생리의학",
       "2019년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2019",
@@ -11512,7 +12664,10 @@
       "물리학",
       "2019년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-2020",
@@ -11543,7 +12698,10 @@
       "화학",
       "2020년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-analytical",
+    "subFieldKo": "분석화학 & 기기측정 도구",
+    "subFieldDesc": "질량분석법, NMR, 크로마토그래피 및 극저온 전자현미경"
   },
   {
     "id": "economics-2020",
@@ -11574,7 +12732,10 @@
       "경제학",
       "2020년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-game",
+    "subFieldKo": "게임이론 & 전략적 상호작용",
+    "subFieldDesc": "내시 균형, 불완전정보 게임, 경매 설계 및 행동 전략"
   },
   {
     "id": "medicine-2020",
@@ -11611,7 +12772,10 @@
       "생리의학",
       "2020년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2020",
@@ -11648,7 +12812,10 @@
       "물리학",
       "2020년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   },
   {
     "id": "chemistry-2021",
@@ -11679,7 +12846,10 @@
       "화학",
       "2021년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2021",
@@ -11716,7 +12886,10 @@
       "경제학",
       "2021년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-econometrics",
+    "subFieldKo": "계량경제학 & 실증인과분석",
+    "subFieldDesc": "시계열 계량분석, 자연실험, RCT 무작위 대조군 평가"
   },
   {
     "id": "medicine-2021",
@@ -11747,7 +12920,10 @@
       "생리의학",
       "2021년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2021",
@@ -11784,7 +12960,10 @@
       "물리학",
       "2021년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-2022",
@@ -11821,7 +13000,10 @@
       "화학",
       "2022년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2022",
@@ -11858,7 +13040,10 @@
       "경제학",
       "2022년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2022",
@@ -11883,7 +13068,10 @@
       "생리의학",
       "2022년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2022",
@@ -11920,7 +13108,10 @@
       "물리학",
       "2022년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-2023",
@@ -11957,7 +13148,10 @@
       "화학",
       "2023년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2023",
@@ -11982,7 +13176,10 @@
       "경제학",
       "2023년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-micro",
+    "subFieldKo": "미시경제학 & 일반균형·후생이론",
+    "subFieldDesc": "소비자 효용, 일반균형 체계, 사회적 선택 및 메커니즘 디자인"
   },
   {
     "id": "medicine-2023",
@@ -12013,7 +13210,10 @@
       "생리의학",
       "2023년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2023",
@@ -12050,7 +13250,10 @@
       "물리학",
       "2023년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-optics",
+    "subFieldKo": "광학 & 정밀측정 기술",
+    "subFieldDesc": "레이저 분광학, X선 회절, 광섬유 및 고정밀 계측"
   },
   {
     "id": "chemistry-2024",
@@ -12087,7 +13290,10 @@
       "화학",
       "2024년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-biochem",
+    "subFieldKo": "생화학 & 분자구조 생물학",
+    "subFieldDesc": "DNA/단백질 구조 결정, 유전암호, 효소 기전 및 크리스퍼"
   },
   {
     "id": "economics-2024",
@@ -12124,7 +13330,10 @@
       "경제학",
       "2024년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-institutional",
+    "subFieldKo": "제도경제학 & 국가번영·노동",
+    "subFieldDesc": "재산권과 포용적 제도, 국가 간 빈부격차, 계약이론"
   },
   {
     "id": "medicine-2024",
@@ -12155,7 +13364,10 @@
       "생리의학",
       "2024년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2024",
@@ -12186,7 +13398,10 @@
       "물리학",
       "2024년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-complex",
+    "subFieldKo": "통계물리 & 복잡계/AI",
+    "subFieldDesc": "상전이, 볼츠만 분포, 기후 복잡계 및 인공신경망 물리"
   },
   {
     "id": "chemistry-2025",
@@ -12223,7 +13438,10 @@
       "화학",
       "2025년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2025",
@@ -12260,7 +13478,10 @@
       "경제학",
       "2025년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2025",
@@ -12297,7 +13518,10 @@
       "생리의학",
       "2025년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2025",
@@ -12334,7 +13558,10 @@
       "물리학",
       "2025년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-quantum",
+    "subFieldKo": "양자역학 & 양자정보",
+    "subFieldDesc": "파동역학, 불확정성 원리, 양자 얽힘 및 양자 전산"
   },
   {
     "id": "chemistry-2026",
@@ -12365,7 +13592,10 @@
       "화학",
       "2026년",
       "초고해상도"
-    ]
+    ],
+    "subFieldId": "chem-organic",
+    "subFieldKo": "유기화학 & 정밀합성·촉매",
+    "subFieldDesc": "유기화합물 전합성, 비대칭 촉매 반응, 고분자 플라스틱"
   },
   {
     "id": "economics-2026",
@@ -12396,7 +13626,10 @@
       "경제학",
       "2026년",
       "기후변화"
-    ]
+    ],
+    "subFieldId": "econ-macro",
+    "subFieldKo": "거시경제학 & 통화·성장이론",
+    "subFieldDesc": "경제성장 모형, 인플레이션-실업, 통화정책 및 경기변동"
   },
   {
     "id": "medicine-2026",
@@ -12433,7 +13666,10 @@
       "생리의학",
       "2026년",
       "면역관문억제제(면역항암),"
-    ]
+    ],
+    "subFieldId": "med-genetics",
+    "subFieldKo": "유전학 & 분자유전체학",
+    "subFieldDesc": "DNA 복제, 유전자 발현 조절, mRNA 기술 및 마이크로RNA"
   },
   {
     "id": "physics-2026",
@@ -12458,6 +13694,9 @@
       "물리학",
       "2026년",
       "중력파,"
-    ]
+    ],
+    "subFieldId": "phys-astro",
+    "subFieldKo": "우주론·천체물리학 & 중력",
+    "subFieldDesc": "일반상대성이론, 블랙홀, 우주배경복사, 중력파 및 외계행성"
   }
 ]

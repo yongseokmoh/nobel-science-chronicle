@@ -6,6 +6,9 @@ export interface NobelPrizeItem {
   domain: DomainType;
   domainKo: string;
   categoryCluster: string; // 연구 흐름 클러스터
+  subFieldId?: string; // 세부 학문/연구분야 ID (예: 'phys-quantum')
+  subFieldKo?: string; // 세부 학문/연구분야 국문명 (예: '양자역학 & 양자정보')
+  subFieldDesc?: string; // 세부 학문분야 해설
   titleKo: string;
   titleEn: string;
   laureates: {
